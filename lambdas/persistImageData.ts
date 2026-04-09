@@ -4,7 +4,8 @@ import {
   GetObjectCommandInput,
   S3Client,
 } from "@aws-sdk/client-s3";
-import { DynamoDBClient } from "@aws-sdk/client-dynamodb";
+
+import { DynamoDBClient } from "@aws-sdk/client-dynamodb"; // added imports and file changes in previous commit, used wrong commit message for lab
 import { DynamoDBDocumentClient, PutCommand } from "@aws-sdk/lib-dynamodb";
 
 const s3 = new S3Client();
